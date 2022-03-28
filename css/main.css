@@ -13,11 +13,6 @@ body {
   padding: 0;
 }
 
-header img {
-  width: 100%;
-  margin: 0 0 .5rem;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -31,7 +26,7 @@ header h1 {
   margin: 0;
 }
 
-header .logo {
+header img {
   width: 2.25em;
   order: -1;
   margin-right: .5rem;
