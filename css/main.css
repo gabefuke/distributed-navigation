@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  padding: 1rem;
+  padding: 0;
 }
 
 img {
@@ -23,6 +23,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #e2e2e2;
+  margin: 0;
+  padding: 1rem;
 }
 
 h1 {
@@ -33,6 +35,11 @@ header .logo {
   width: 2.25em;
   order: -1;
   margin-right: .5rem;
+}
+
+header p {
+  margin: 0 auto;
+  font-size: 1.125rem;
 }
 
 nav ul {
